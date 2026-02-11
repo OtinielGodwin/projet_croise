@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"AF061599.25.6.1997.BY","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"EU345611.12.6.1997.BY","fumer modéré","occasionnellement","Employés"
+"EU345612.5.4.1997.BY","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"
+"EU345610.27.4.1997.BY","fumer modéré",NA,"Employés"
+"EU345613.1.5.1997.BY","fumeur occasionnel","jamais","Professions Intermédiaires"

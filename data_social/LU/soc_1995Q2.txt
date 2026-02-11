@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"HE972459.21.6.1995.LU","gros fumeur","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"HE972343.5.6.1995.LU","non-fumeur","jamais","Employés"
+"HE972342.19.4.1995.LU","fumer modéré","quotidiennement","Ouvriers"

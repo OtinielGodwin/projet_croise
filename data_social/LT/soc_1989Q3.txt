@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX946508.4.8.1989.LT","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

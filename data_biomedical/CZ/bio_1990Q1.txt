@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"JN229076.7.2.1990.CZ",0.112,1195,0.5602

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"KT864247.21.1.1997.BE","fumer modéré","régulièrement","Ouvriers"
+"MH642457.24.3.1997.BE","fumeur occasionnel","jamais","Artisans, commerçants et chefs d’entreprise"
+"MH642458.14.3.1997.BE","fumeur occasionnel","régulièrement","Ouvriers"
+"MH642380.10.2.1997.BE","fumer modéré",NA,"Employés"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF049322.24.7.1993.GR","fumeur léger","régulièrement","Professions Intermédiaires"

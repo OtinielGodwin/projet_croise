@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"MH642561.3.6.1987.BE","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"
+"MH642514.2.4.1987.BE","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"
+"MH642379.4.6.1987.BE","fumeur léger","quotidiennement","Professions Intermédiaires"

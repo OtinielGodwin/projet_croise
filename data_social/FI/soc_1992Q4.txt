@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF219269.27.12.1992.FI","fumeur occasionnel","quotidiennement","Employés"
+"AF219266.5.10.1992.FI","fumer modéré","régulièrement","Employés"

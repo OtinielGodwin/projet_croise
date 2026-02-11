@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"HF572006.5.7.1992.FR","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"
+"U58796.5.7.1992.FR","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AY713411.12.7.1992.FR","fumer modéré","régulièrement","Professions Intermédiaires"
+"U58788.14.7.1992.FR","gros fumeur",NA,"Ouvriers"
+"HF572007.3.9.1992.FR","fumer modéré",NA,"Agriculteurs exploitants"

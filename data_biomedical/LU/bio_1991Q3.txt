@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AF541792.10.7.1991.LU",1.215,NA,0.8108

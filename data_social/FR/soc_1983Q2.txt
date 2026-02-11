@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF033819.13.4.1983.FR","gros fumeur",NA,"Professions Intermédiaires"
+"K03455.6.6.1983.FR","gros fumeur","occasionnellement","Professions Intermédiaires"
+"K02083.13.5.1983.FR","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"

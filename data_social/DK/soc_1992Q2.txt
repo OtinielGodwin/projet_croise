@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AJ252866.21.4.1992.DK","gros fumeur",NA,"Professions Intermédiaires"
+"AJ412905.12.6.1992.DK","fumeur occasionnel","régulièrement","Employés"

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"MK029148.26.7.1980.RU","fumeur léger","occasionnellement","Employés"
+"MK029141.8.7.1980.RU","gros fumeur",NA,"Professions Intermédiaires"
+"KC681851.20.8.1980.RU","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"
+"EF119555.10.8.1980.RU","fumer modéré",NA,"Employés"

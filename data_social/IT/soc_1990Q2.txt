@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AY364735.4.5.1990.IT","fumer modéré","régulièrement","Professions Intermédiaires"
+"EF114536.24.6.1990.IT","fumeur occasionnel","occasionnellement","Employés"

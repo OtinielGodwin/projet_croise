@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AJ228186.16.10.1994.BE","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"KF773459.10.11.1994.BE","gros fumeur",NA,"Professions Intermédiaires"
+"KT864013.4.12.1994.BE","fumeur léger","jamais","Employés"
+"KT864234.16.11.1994.BE","fumer modéré","occasionnellement","Professions Intermédiaires"

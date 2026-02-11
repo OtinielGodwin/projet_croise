@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"Z79528.5.2.1992.FR","non-fumeur","jamais","Artisans, commerçants et chefs d’entreprise"

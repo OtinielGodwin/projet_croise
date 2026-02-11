@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EF114494.19.7.1987.IT","fumeur léger","occasionnellement","Cadres et professions intellectuelles supérieures"

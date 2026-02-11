@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF400420.7.3.1996.SE","fumeur occasionnel","jamais","Professions Intermédiaires"
+"AY619774.21.2.1996.SE","gros fumeur",NA,"Professions Intermédiaires"
+"AF400417.5.3.1996.SE","fumer modéré","régulièrement","Professions Intermédiaires"

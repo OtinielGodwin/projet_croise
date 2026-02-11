@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"GU204937.21.12.1994.SE",1.863,50,NA

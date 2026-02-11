@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF454520.9.5.1991.CZ","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"
+"JN229125.14.6.1991.CZ","fumeur léger","quotidiennement","Professions Intermédiaires"
+"FJ842373.14.6.1991.CZ","fumer modéré","quotidiennement","Ouvriers"

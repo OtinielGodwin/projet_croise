@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"KC681865.24.10.1980.RU","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"
+"MK029270.3.11.1980.RU","fumer modéré",NA,"Professions Intermédiaires"

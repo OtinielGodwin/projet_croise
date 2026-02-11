@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ700020.10.11.1994.PT","fumer modéré","quotidiennement","Ouvriers"

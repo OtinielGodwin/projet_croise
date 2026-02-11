@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"EF114546.7.7.1990.IT","fumer modéré","quotidiennement","Employés"
+"JX666377.2.7.1990.IT","gros fumeur","occasionnellement","Ouvriers"

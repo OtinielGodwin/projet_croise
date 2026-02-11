@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY905393.19.7.1989.DE","gros fumeur",NA,"Employés"

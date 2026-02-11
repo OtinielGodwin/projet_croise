@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF394465.25.3.1997.SE","gros fumeur","régulièrement","Employés"
+"AY619747.8.2.1997.SE","fumeur léger","régulièrement","Professions Intermédiaires"

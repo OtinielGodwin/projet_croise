@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"HM035549.15.4.1993.FR","gros fumeur",NA,"Ouvriers"
+"AF330779.5.5.1993.FR","fumeur occasionnel","occasionnellement","Professions Intermédiaires"
+"U58797.27.6.1993.FR","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"
+"AF199286.1.4.1993.FR","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"
+"HF572009.4.6.1993.FR","fumeur léger","jamais","Ouvriers"

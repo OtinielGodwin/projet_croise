@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"JX503076.9.2.1985.FR",1.632,166,NA

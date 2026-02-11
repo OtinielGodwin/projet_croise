@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"GU217209.10.12.1994.GB",0.138,1246,0.5512

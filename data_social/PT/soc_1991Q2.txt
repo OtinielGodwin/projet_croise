@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"FR848975.14.5.1991.PT","fumeur occasionnel","occasionnellement","Professions Intermédiaires"

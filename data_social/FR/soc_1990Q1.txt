@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF509305.8.3.1990.FR","gros fumeur","régulièrement","Employés"

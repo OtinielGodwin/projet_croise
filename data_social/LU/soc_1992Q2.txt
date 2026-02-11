@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"KT863770.25.5.1992.LU","fumeur occasionnel","occasionnellement","Ouvriers"

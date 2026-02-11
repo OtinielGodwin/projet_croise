@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MH642536.3.1.1987.BE","fumeur léger",NA,"Ouvriers"

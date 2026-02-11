@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AF400398.5.1.1994.SE","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"
+"AF400408.7.2.1994.SE","fumeur léger","régulièrement","Employés"
+"AF400407.14.3.1994.SE","fumeur occasionnel","occasionnellement","Professions Intermédiaires"
+"AF400410.5.1.1994.SE","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"

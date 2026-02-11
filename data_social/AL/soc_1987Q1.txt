@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY611706.4.1.1987.AL","fumeur léger","régulièrement","Employés"

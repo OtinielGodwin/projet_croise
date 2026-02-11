@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JF326395.22.4.1991.CH","gros fumeur",NA,"Employés"

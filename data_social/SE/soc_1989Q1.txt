@@ -1,0 +1,8 @@
+"ID","smoke","alcohol","csp"
+"JX870008.7.1.1989.SE","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"
+"AY619788.15.3.1989.SE","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"
+"U76184.5.3.1989.SE","fumeur léger","occasionnellement","Professions Intermédiaires"
+"AF278874.24.1.1989.SE","fumeur occasionnel",NA,"Employés"
+"AY619738.21.2.1989.SE","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"
+"AF278863.18.3.1989.SE","gros fumeur","régulièrement","Ouvriers"
+"U56305.8.3.1989.SE","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"HQ337233.14.6.1997.DK","fumer modéré",NA,"Employés"
+"DQ468510.19.6.1997.DK","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"DQ468509.2.6.1997.DK","fumer modéré",NA,"Ouvriers"
+"HQ337234.7.6.1997.DK","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"

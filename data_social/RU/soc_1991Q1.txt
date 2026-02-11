@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"FJ491437.26.1.1991.RU","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"

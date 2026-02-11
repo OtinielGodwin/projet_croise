@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"MH642587.10.5.1991.BE","gros fumeur","quotidiennement","Ouvriers"
+"MH642555.5.4.1991.BE","gros fumeur","quotidiennement","Employés"
+"KT863772.7.5.1991.BE","fumeur léger","quotidiennement","Agriculteurs exploitants"
+"KT864237.21.6.1991.BE","fumeur léger","régulièrement","Ouvriers"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY090817.16.5.1995.CZ","fumeur occasionnel","régulièrement","Professions Intermédiaires"

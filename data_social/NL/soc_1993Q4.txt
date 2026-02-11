@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"L76896.24.12.1993.NL","gros fumeur","jamais","Employés"

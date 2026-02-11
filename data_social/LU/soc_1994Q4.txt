@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF541848.12.11.1994.LU","fumer modéré","occasionnellement","Professions Intermédiaires"
+"AF541520.18.11.1994.LU","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

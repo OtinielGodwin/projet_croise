@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AY677395.5.7.1995.GB","fumer modéré",NA,"Ouvriers"
+"AY677595.12.7.1995.GB","non-fumeur","régulièrement","Agriculteurs exploitants"
+"AY901790.9.7.1995.GB","non-fumeur","occasionnellement","Ouvriers"
+"AY714414.10.9.1995.GB","fumeur occasionnel","régulièrement","Artisans, commerçants et chefs d’entreprise"
+"AY901177.27.9.1995.GB","fumeur léger","régulièrement","Employés"
+"GQ462351.9.7.1995.GB","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

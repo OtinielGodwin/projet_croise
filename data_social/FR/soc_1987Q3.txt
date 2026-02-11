@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"HM035842.5.8.1987.FR","fumeur léger",NA,"Professions Intermédiaires"
+"AY010392.5.7.1987.FR","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"
+"U58801.23.7.1987.FR","fumeur léger","quotidiennement","Ouvriers"

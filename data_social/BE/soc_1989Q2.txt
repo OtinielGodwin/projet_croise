@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"MH642530.5.5.1989.BE","fumer modéré","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"KT863972.7.6.1989.BE","gros fumeur","quotidiennement","Employés"
+"MH642470.14.5.1989.BE","gros fumeur","régulièrement","Employés"
+"MH642371.19.6.1989.BE","fumer modéré",NA,"Professions Intermédiaires"
+"OR246402.13.6.1989.BE","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AY677396.19.3.1994.GB","fumeur occasionnel","quotidiennement","Professions Intermédiaires"
+"U21136.12.1.1994.GB","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"AY714408.18.3.1994.GB","fumeur léger","occasionnellement","Professions Intermédiaires"

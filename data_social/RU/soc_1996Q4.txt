@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"U93647.14.11.1996.RU","fumer modéré","occasionnellement","Employés"
+"MK029255.25.11.1996.RU","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"KR817642.23.12.1996.RU","fumeur léger","jamais","Ouvriers"
+"U93611.5.11.1996.RU","fumeur léger","quotidiennement","Professions Intermédiaires"
+"U93632.5.12.1996.RU","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF455622.10.7.1994.ES","fumer modéré",NA,"Ouvriers"

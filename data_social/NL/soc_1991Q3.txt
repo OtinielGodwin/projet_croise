@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"L76881.13.7.1991.NL","fumeur léger",NA,"Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"JX946641.18.6.1995.LT",0,721,0.9435

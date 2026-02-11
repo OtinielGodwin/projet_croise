@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"KM190968.8.12.1996.BY","fumer modéré","régulièrement","Ouvriers"
+"AF061588.21.11.1996.BY","fumer modéré","jamais","Professions Intermédiaires"

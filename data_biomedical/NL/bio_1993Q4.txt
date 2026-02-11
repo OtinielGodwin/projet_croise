@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"L76896.24.12.1993.NL",NA,1041,0.9482

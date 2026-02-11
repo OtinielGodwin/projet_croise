@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"KT860106.10.7.1992.GB","fumeur occasionnel","occasionnellement","Ouvriers"
+"GQ462506.5.7.1992.GB","fumer modéré","jamais","Employés"
+"AY901148.18.7.1992.GB","gros fumeur","quotidiennement","Employés"

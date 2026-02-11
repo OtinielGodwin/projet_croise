@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"L76887.7.2.1992.NL",0.534,891,0.0087

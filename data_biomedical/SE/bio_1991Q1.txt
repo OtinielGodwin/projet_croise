@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"U76119.12.3.1991.SE",NA,1075,0.1172

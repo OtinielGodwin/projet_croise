@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AY042743.7.4.1995.GB","fumeur occasionnel","régulièrement","Cadres et professions intellectuelles supérieures"
+"GU217159.5.4.1995.GB","fumeur léger","jamais","Artisans, commerçants et chefs d’entreprise"
+"U23122.8.6.1995.GB","fumeur léger","quotidiennement","Cadres et professions intellectuelles supérieures"
+"GQ462463.4.6.1995.GB","gros fumeur",NA,"Ouvriers"
+"AY677581.18.5.1995.GB","non-fumeur","occasionnellement","Professions Intermédiaires"
+"GQ462248.21.6.1995.GB","fumer modéré","occasionnellement","Cadres et professions intellectuelles supérieures"

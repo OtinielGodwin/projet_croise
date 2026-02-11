@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HM244666.24.3.1993.CH","fumeur léger",NA,"Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"EU345943.10.12.1993.RU",0.366,475,0.7513

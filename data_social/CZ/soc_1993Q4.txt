@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JN229155.27.11.1993.CZ","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY611694.10.1.1990.AL","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"

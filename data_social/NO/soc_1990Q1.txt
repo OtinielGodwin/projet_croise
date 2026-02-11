@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"X92913.16.2.1990.NO","gros fumeur","quotidiennement","Employés"

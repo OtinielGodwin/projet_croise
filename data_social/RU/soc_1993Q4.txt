@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EU345943.10.12.1993.RU","fumer modéré","occasionnellement","Employés"

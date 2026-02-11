@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF286579.10.6.1989.EE","non-fumeur","jamais","Agriculteurs exploitants"

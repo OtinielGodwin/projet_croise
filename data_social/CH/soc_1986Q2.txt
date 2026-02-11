@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"OM795253.6.5.1986.CH","gros fumeur",NA,"Professions Intermédiaires"
+"MT155330.12.6.1986.CH","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"

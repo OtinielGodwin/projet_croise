@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"OR460574.24.11.1980.RU",1.238,174,0.2636

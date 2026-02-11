@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"GQ462295.12.12.1992.GB","gros fumeur","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"AY677412.12.11.1992.GB","non-fumeur","quotidiennement","Agriculteurs exploitants"

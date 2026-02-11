@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AB081737.11.10.1995.UA","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

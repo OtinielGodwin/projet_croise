@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"EU672697.19.6.1993.CZ","fumeur léger","jamais","Artisans, commerçants et chefs d’entreprise"
+"GQ999079.12.5.1993.CZ","fumeur léger","occasionnellement","Employés"
+"EU672566.16.6.1993.CZ","fumer modéré",NA,"Employés"

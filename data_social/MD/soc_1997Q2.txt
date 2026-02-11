@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AF400677.10.6.1997.MD","gros fumeur","quotidiennement","Ouvriers"
+"AF400684.6.5.1997.MD","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"
+"AF400682.13.5.1997.MD","fumeur léger","jamais","Artisans, commerçants et chefs d’entreprise"
+"AF400686.7.4.1997.MD","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"

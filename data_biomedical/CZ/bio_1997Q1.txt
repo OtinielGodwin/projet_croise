@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"EU672612.9.2.1997.CZ",0,830,0.8319

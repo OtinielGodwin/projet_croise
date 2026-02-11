@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY352054.18.3.1992.CZ","gros fumeur","jamais","Artisans, commerçants et chefs d’entreprise"

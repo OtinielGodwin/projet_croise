@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AY010356.7.8.1991.FR","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"
+"U58800.16.7.1991.FR","gros fumeur","régulièrement","Ouvriers"
+"HF571992.24.7.1991.FR","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"

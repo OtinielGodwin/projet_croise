@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AJ245472.7.11.1996.HU","fumer modéré",NA,"Ouvriers"

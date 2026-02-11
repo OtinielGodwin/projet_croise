@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ700230.12.11.1996.PT","fumeur léger","jamais","Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EU345839.13.7.1997.UA","non-fumeur","occasionnellement","Agriculteurs exploitants"

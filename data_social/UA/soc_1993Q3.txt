@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AF025603.23.7.1993.UA","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AF025580.1.9.1993.UA","fumer modéré","jamais","Artisans, commerçants et chefs d’entreprise"
+"AF025637.11.7.1993.UA","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"
+"AF025617.14.7.1993.UA","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

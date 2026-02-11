@@ -1,0 +1,8 @@
+"ID","smoke","alcohol","csp"
+"GQ462050.6.5.1994.GB","fumer modéré","quotidiennement","Professions Intermédiaires"
+"AY901168.8.4.1994.GB","fumer modéré","régulièrement","Ouvriers"
+"U21097.2.6.1994.GB","fumer modéré","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AJ425897.8.4.1994.GB","gros fumeur","régulièrement","Professions Intermédiaires"
+"U21124.15.6.1994.GB","non-fumeur","quotidiennement","Ouvriers"
+"AY677459.24.4.1994.GB","gros fumeur",NA,"Employés"
+"GQ462241.27.6.1994.GB","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"

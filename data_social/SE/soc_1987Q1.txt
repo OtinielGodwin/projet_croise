@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"U56280.2.1.1987.SE","fumeur léger","occasionnellement","Employés"

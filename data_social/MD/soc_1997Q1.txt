@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF400680.7.1.1997.MD","fumer modéré","régulièrement","Ouvriers"

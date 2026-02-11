@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"KT863962.5.1.1996.LU","fumeur léger","régulièrement","Agriculteurs exploitants"
+"HE972344.24.3.1996.LU","fumeur léger","jamais","Agriculteurs exploitants"

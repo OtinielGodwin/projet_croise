@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"MK029227.23.4.1994.RU","fumeur occasionnel",NA,"Professions Intermédiaires"
+"MK029249.23.6.1994.RU","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"MK029292.13.5.1994.RU","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"AF051498.7.6.1994.RU","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"

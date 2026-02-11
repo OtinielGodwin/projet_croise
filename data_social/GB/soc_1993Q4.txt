@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AY901170.15.12.1993.GB","fumer modéré","occasionnellement","Employés"
+"GQ462033.22.11.1993.GB","fumeur léger","jamais","Employés"

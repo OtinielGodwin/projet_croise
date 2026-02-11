@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY611715.7.4.1993.AL","gros fumeur","occasionnellement","Artisans, commerçants et chefs d’entreprise"

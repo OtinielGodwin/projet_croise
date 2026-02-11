@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"X92916.3.5.1989.NO","non-fumeur","régulièrement","Ouvriers"

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"KX530768.23.6.1995.RU","fumeur léger","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"YB868893.16.6.1995.RU","gros fumeur","quotidiennement","Professions Intermédiaires"
+"MK029188.21.6.1995.RU","non-fumeur","occasionnellement","Agriculteurs exploitants"
+"KF747718.12.6.1995.RU","fumeur léger","jamais","Employés"

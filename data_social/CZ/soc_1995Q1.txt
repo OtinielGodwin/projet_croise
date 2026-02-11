@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"FJ842340.21.3.1995.CZ","fumer modéré","régulièrement","Employés"
+"FJ842293.22.2.1995.CZ","fumeur léger","régulièrement","Ouvriers"

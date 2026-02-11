@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"X92912.27.7.1990.NO","fumeur occasionnel","jamais","Employés"

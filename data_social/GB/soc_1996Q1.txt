@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AY901158.13.2.1996.GB","fumer modéré","occasionnellement","Agriculteurs exploitants"
+"GQ462031.1.1.1996.GB","fumeur occasionnel","régulièrement","Professions Intermédiaires"
+"GQ462112.26.3.1996.GB","fumeur léger","occasionnellement","Ouvriers"

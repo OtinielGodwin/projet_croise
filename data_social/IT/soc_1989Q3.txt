@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EF376799.26.9.1989.IT","gros fumeur","quotidiennement","Professions Intermédiaires"

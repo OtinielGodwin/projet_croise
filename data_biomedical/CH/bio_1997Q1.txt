@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KX692047.6.3.1997.CH",0.287,1072,0.9437

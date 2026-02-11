@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"GQ390665.7.11.1997.DE",0.401,868,0.9562

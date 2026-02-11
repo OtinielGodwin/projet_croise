@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"MH642581.14.11.1990.BE",0.144,432,0.7598

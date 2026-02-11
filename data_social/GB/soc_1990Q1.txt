@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"KT860114.5.2.1990.GB","fumer modéré","occasionnellement","Professions Intermédiaires"
+"KT860118.7.2.1990.GB","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"GQ462496.9.2.1990.GB","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"

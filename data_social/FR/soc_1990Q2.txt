@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"S76651.15.5.1990.FR","fumer modéré","quotidiennement","Employés"
+"AY010413.10.6.1990.FR","fumeur léger","quotidiennement","Professions Intermédiaires"
+"AY010434.19.6.1990.FR","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"

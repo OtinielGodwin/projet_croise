@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"JX946457.4.5.1993.LT","fumer modéré","quotidiennement","Employés"
+"JX946652.23.4.1993.LT","fumer modéré","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"JX946480.5.6.1993.LT","fumeur occasionnel","jamais","Employés"

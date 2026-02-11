@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF400392.19.2.1992.SE","fumer modéré","quotidiennement","Employés"
+"AF400382.24.2.1992.SE","fumeur léger","régulièrement","Ouvriers"

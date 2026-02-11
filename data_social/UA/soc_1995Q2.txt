@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF100939.15.6.1995.UA","fumeur léger","jamais","Employés"

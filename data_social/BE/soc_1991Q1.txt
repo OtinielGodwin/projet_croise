@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"KT863807.16.2.1991.BE","fumer modéré","régulièrement","Professions Intermédiaires"

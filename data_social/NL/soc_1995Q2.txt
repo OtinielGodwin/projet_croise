@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF403864.14.5.1995.NL","fumeur léger","régulièrement","Ouvriers"

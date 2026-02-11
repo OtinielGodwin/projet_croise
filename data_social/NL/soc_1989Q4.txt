@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF404017.15.11.1989.NL","fumeur occasionnel","jamais","Artisans, commerçants et chefs d’entreprise"

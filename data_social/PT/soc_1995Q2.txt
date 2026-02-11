@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ700007.7.6.1995.PT","gros fumeur",NA,"Professions Intermédiaires"

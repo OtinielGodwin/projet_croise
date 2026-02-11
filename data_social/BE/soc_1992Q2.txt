@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"KT864023.5.4.1992.BE","fumeur léger","régulièrement","Artisans, commerçants et chefs d’entreprise"
+"AJ297128.12.6.1992.BE","fumer modéré","régulièrement","Professions Intermédiaires"
+"KT863777.10.6.1992.BE","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"

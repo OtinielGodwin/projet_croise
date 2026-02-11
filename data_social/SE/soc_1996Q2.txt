@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"U56333.7.6.1996.SE","fumer modéré","quotidiennement","Ouvriers"
+"U56311.21.5.1996.SE","non-fumeur","jamais","Agriculteurs exploitants"
+"AF400426.2.6.1996.SE","fumeur léger","jamais","Employés"
+"FJ832073.8.5.1996.SE","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"
+"AY619806.21.4.1996.SE","fumeur léger","quotidiennement","Professions Intermédiaires"
+"FJ832078.23.5.1996.SE","gros fumeur","occasionnellement","Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF455621.15.6.1988.ES","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"

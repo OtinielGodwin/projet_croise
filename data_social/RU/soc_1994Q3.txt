@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"AY766070.18.7.1994.RU","fumeur occasionnel","régulièrement","Agriculteurs exploitants"
+"EU345866.13.9.1994.RU","fumeur léger","jamais","Employés"
+"EU345876.18.7.1994.RU","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"
+"MK029256.7.7.1994.RU","fumeur léger",NA,"Cadres et professions intellectuelles supérieures"
+"EU345925.3.7.1994.RU","fumeur occasionnel","jamais","Agriculteurs exploitants"

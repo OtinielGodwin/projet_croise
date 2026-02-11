@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"HM244666.24.3.1993.CH",0.601,988,0.8829

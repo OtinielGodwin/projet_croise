@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY185462.13.7.1993.LU","fumer modéré","jamais","Professions Intermédiaires"

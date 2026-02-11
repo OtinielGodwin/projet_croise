@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX946628.25.10.1991.LT","fumer modéré",NA,"Ouvriers"

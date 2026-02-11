@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"MT155330.12.6.1986.CH",0.419,NA,0.0472

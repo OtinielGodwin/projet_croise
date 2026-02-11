@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AY751064.15.7.1990.ES",0.652,592,0.0165

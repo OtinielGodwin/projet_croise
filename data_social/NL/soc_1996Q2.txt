@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AY970949.12.6.1996.NL","fumeur occasionnel","jamais","Ouvriers"
+"AF032167.7.6.1996.NL","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"
+"GQ389220.3.4.1996.NL","fumeur léger","quotidiennement","Ouvriers"

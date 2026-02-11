@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY905398.13.11.1995.DE","fumeur occasionnel","régulièrement","Cadres et professions intellectuelles supérieures"

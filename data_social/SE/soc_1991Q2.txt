@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF278925.26.5.1991.SE","gros fumeur","quotidiennement","Ouvriers"
+"AF014100.10.6.1991.SE","fumeur léger","quotidiennement","Agriculteurs exploitants"

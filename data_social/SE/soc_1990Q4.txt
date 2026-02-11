@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"AF400347.14.10.1990.SE","gros fumeur","régulièrement","Employés"
+"AF400371.14.11.1990.SE","fumeur léger","occasionnellement","Employés"
+"AF400350.5.10.1990.SE","gros fumeur",NA,"Professions Intermédiaires"
+"AF400343.19.10.1990.SE","gros fumeur",NA,"Professions Intermédiaires"
+"AF400359.14.11.1990.SE","gros fumeur","quotidiennement","Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"MK344562.25.6.1993.ES",0.605,844,0.0567

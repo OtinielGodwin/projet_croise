@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"EU672545.9.7.1996.CZ","fumer modéré",NA,"Ouvriers"
+"AF223993.1.9.1996.CZ","fumeur occasionnel","jamais","Artisans, commerçants et chefs d’entreprise"

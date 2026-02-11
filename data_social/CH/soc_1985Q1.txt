@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"OM795280.6.1.1985.CH","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"

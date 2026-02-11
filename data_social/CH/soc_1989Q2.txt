@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"JF326406.7.4.1989.CH","fumeur occasionnel","occasionnellement","Ouvriers"
+"JF326416.24.5.1989.CH","fumeur occasionnel","occasionnellement","Employés"

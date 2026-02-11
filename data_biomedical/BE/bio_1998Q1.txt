@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KF773588.16.1.1998.BE",0,436,0.839

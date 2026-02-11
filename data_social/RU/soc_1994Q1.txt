@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"MK029217.6.1.1994.RU","gros fumeur","régulièrement","Professions Intermédiaires"
+"EF121287.7.3.1994.RU","gros fumeur","occasionnellement","Ouvriers"

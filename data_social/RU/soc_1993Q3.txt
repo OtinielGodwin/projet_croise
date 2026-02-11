@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"MK029296.25.8.1993.RU","fumer modéré","quotidiennement","Ouvriers"
+"KC681864.21.7.1993.RU","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"
+"KC681856.13.7.1993.RU","gros fumeur","jamais","Agriculteurs exploitants"

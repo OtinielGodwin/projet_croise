@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF404014.26.6.1994.NL","gros fumeur","quotidiennement","Employés"
+"AF403977.3.6.1994.NL","fumeur léger","occasionnellement","Employés"

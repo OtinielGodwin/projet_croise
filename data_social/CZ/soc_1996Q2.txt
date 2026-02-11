@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ025900.25.5.1996.CZ","non-fumeur","jamais","Agriculteurs exploitants"

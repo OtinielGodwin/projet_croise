@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AY901170.15.12.1993.GB",0.28,NA,0.8139

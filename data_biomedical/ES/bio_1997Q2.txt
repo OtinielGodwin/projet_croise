@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KP081469.5.6.1997.ES",NA,1007,0.7633

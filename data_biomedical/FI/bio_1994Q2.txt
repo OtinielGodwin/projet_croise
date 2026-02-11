@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AF219377.14.6.1994.FI",0.439,927,0.1652

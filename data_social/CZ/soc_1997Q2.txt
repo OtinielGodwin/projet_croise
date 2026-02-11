@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF224020.22.4.1997.CZ","fumeur léger","occasionnellement","Professions Intermédiaires"
+"EU672738.13.6.1997.CZ","gros fumeur","régulièrement","Ouvriers"
+"AF223977.10.6.1997.CZ","non-fumeur","régulièrement","Ouvriers"

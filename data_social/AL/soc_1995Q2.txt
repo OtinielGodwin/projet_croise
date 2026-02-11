@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY611657.2.6.1995.AL","fumer modéré",NA,"Cadres et professions intellectuelles supérieures"

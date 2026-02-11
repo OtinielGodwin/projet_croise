@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AJ428012.23.7.1992.BE","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AY749183.16.7.1992.BE","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"
+"KT864230.24.7.1992.BE","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AJ297119.24.9.1992.BE","gros fumeur",NA,"Employés"

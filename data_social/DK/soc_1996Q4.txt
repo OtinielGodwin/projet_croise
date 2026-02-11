@@ -1,0 +1,8 @@
+"ID","smoke","alcohol","csp"
+"AY721654.18.12.1996.DK","fumeur occasionnel","jamais","Ouvriers"
+"DQ308274.13.11.1996.DK","gros fumeur","occasionnellement","Ouvriers"
+"AF191389.8.11.1996.DK","fumeur léger","occasionnellement","Ouvriers"
+"AY721637.13.12.1996.DK","fumer modéré","occasionnellement","Employés"
+"AY149556.8.12.1996.DK","gros fumeur",NA,"Ouvriers"
+"AY149492.3.10.1996.DK","fumer modéré","occasionnellement","Professions Intermédiaires"
+"AY721632.10.11.1996.DK","gros fumeur","quotidiennement","Ouvriers"

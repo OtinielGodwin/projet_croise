@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF400401.10.7.1994.SE","fumer modéré","régulièrement","Professions Intermédiaires"
+"AF400400.4.7.1994.SE","fumeur léger","jamais","Professions Intermédiaires"

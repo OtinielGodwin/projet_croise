@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"HQ700227.13.5.1994.PT","gros fumeur","régulièrement","Agriculteurs exploitants"
+"HQ700064.21.5.1994.PT","fumeur occasionnel","jamais","Employés"

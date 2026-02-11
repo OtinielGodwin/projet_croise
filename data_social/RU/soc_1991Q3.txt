@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"MK029154.9.7.1991.RU","fumer modéré","occasionnellement","Professions Intermédiaires"
+"MK029158.19.9.1991.RU","fumeur occasionnel",NA,"Cadres et professions intellectuelles supérieures"

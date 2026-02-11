@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"DQ974980.7.4.1992.CZ","fumer modéré","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"EU672650.7.5.1992.CZ","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

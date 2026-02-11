@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MT155376.12.5.1985.CH","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

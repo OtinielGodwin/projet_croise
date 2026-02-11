@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"HE972458.12.6.1993.LU",0.241,623,0.9158

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"GQ462388.10.10.1990.GB","fumeur léger","occasionnellement","Professions Intermédiaires"

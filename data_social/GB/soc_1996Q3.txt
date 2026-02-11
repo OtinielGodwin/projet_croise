@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MF445374.10.7.1996.GB","non-fumeur","jamais","Employés"

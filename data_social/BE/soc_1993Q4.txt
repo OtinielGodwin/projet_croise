@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MH642500.4.10.1993.BE","fumer modéré","occasionnellement","Ouvriers"

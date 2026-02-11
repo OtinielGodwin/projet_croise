@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"U76121.11.5.1987.SE","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"MF124794.4.5.1996.DE",0,NA,1.0211

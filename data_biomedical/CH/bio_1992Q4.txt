@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"JF326394.13.12.1992.CH",0.489,1028,0.0261

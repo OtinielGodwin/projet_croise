@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"GU988912.6.7.1996.FR","fumeur léger","jamais","Agriculteurs exploitants"
+"Z95450.15.7.1996.FR","fumer modéré","quotidiennement","Ouvriers"
+"Z95469.15.7.1996.FR","fumeur léger","jamais","Employés"
+"Z95466.12.9.1996.FR","fumeur occasionnel","jamais","Agriculteurs exploitants"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AY611660.5.10.1992.AL",0,660,NA

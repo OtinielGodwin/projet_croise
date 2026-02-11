@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"JX870009.6.5.1989.SE","gros fumeur","régulièrement","Ouvriers"
+"AY619769.12.6.1989.SE","gros fumeur","jamais","Employés"
+"AF278872.13.5.1989.SE","fumer modéré",NA,"Employés"
+"JX870010.5.6.1989.SE","fumer modéré","régulièrement","Professions Intermédiaires"

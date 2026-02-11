@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF219264.12.11.1991.FI","gros fumeur","régulièrement","Artisans, commerçants et chefs d’entreprise"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"U43141.12.5.1986.DE",0.078,1022,0.6204

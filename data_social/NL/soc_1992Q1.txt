@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"L76887.7.2.1992.NL","fumeur occasionnel",NA,"Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"JF326413.1.5.1990.CH","fumeur occasionnel","occasionnellement","Employés"
+"JF326381.3.5.1990.CH","gros fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"
+"JF326386.7.6.1990.CH","gros fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"

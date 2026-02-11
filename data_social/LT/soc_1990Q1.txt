@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX946506.5.1.1990.LT","fumer modéré","régulièrement","Employés"

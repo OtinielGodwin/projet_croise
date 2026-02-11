@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MN464182.7.2.1987.DE","fumer modéré",NA,"Ouvriers"

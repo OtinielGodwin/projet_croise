@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AF509304.19.5.1991.FR","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"
+"AF509261.16.4.1991.FR","gros fumeur","quotidiennement","Employés"
+"AF509258.24.5.1991.FR","fumer modéré",NA,"Ouvriers"
+"JQ292459.12.4.1991.FR","gros fumeur","régulièrement","Agriculteurs exploitants"

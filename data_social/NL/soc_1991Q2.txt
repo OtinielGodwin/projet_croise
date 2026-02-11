@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF403952.13.5.1991.NL","gros fumeur","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"AF404011.16.6.1991.NL","gros fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"

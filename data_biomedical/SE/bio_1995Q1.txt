@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"U76161.14.3.1995.SE",0.204,944,1.0044

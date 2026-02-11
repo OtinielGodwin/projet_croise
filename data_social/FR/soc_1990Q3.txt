@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"JQ292449.26.7.1990.FR","fumeur léger","jamais","Artisans, commerçants et chefs d’entreprise"
+"HF572017.12.9.1990.FR","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"

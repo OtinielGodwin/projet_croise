@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF278907.10.11.1989.SE","fumer modéré","régulièrement","Employés"
+"AF278862.25.11.1989.SE","fumer modéré","occasionnellement","Professions Intermédiaires"
+"U76127.12.12.1989.SE","fumeur léger","occasionnellement","Professions Intermédiaires"

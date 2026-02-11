@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"MN464182.7.2.1987.DE",0.463,911,0.2961

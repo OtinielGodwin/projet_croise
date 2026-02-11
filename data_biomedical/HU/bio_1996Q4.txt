@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AJ245472.7.11.1996.HU",0,1029,0.9628

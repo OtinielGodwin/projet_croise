@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"U76119.12.3.1991.SE","fumer modéré","jamais","Employés"

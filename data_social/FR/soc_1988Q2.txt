@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF509275.7.6.1988.FR","gros fumeur","occasionnellement","Ouvriers"

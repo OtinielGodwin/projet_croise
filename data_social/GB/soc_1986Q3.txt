@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AJ271445.12.7.1986.GB","fumer modéré","régulièrement","Employés"

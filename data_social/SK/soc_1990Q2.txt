@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"FN687231.18.4.1990.SK","fumeur léger","occasionnellement","Professions Intermédiaires"

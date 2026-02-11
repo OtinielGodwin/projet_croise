@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"GQ389226.27.7.1996.NL","fumeur léger","occasionnellement","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"U12055.6.8.1985.FR","fumer modéré",NA,"Employés"
+"JQ403040.12.7.1985.FR","fumeur léger","quotidiennement","Ouvriers"

@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"U58785.18.3.1991.FR","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"AY010403.18.3.1991.FR","fumeur occasionnel","occasionnellement","Employés"
+"U58798.16.3.1991.FR","gros fumeur","quotidiennement","Professions Intermédiaires"

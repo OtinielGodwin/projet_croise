@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF400421.6.7.1996.SE","fumeur léger","jamais","Agriculteurs exploitants"
+"AF400425.10.7.1996.SE","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"
+"AF400418.24.7.1996.SE","gros fumeur","régulièrement","Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"KX692161.26.11.1995.CH","gros fumeur",NA,"Professions Intermédiaires"

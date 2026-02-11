@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"KC681886.21.10.1995.RU","fumer modéré","régulièrement","Ouvriers"
+"YJ213718.2.11.1995.RU","fumeur léger","régulièrement","Ouvriers"

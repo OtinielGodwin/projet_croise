@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"L76898.22.6.1993.NL","fumeur léger","régulièrement","Ouvriers"
+"L76895.12.4.1993.NL","fumer modéré","régulièrement","Employés"
+"GQ389224.12.5.1993.NL","fumeur occasionnel","régulièrement","Employés"

@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AF404005.12.5.1989.NL","fumeur léger","jamais","Ouvriers"
+"AF032194.24.6.1989.NL","gros fumeur",NA,"Professions Intermédiaires"
+"L76870.6.6.1989.NL","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"AF032201.12.5.1989.NL","fumer modéré","occasionnellement","Employés"
+"AF032139.13.6.1989.NL","fumer modéré","occasionnellement","Professions Intermédiaires"
+"AF403902.9.6.1989.NL","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

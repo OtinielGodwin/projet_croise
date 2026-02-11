@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MH642488.4.9.1989.BE","gros fumeur",NA,"Employés"

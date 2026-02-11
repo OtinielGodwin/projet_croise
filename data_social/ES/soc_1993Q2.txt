@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"HQ426893.24.5.1993.ES","gros fumeur","jamais","Ouvriers"
+"JX422201.10.6.1993.ES","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"
+"MK344562.25.6.1993.ES","gros fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"

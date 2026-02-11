@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"DQ336655.11.6.1988.CZ","gros fumeur",NA,"Ouvriers"

@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"OM795243.12.4.1992.CH","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"
+"KX692154.3.6.1992.CH","gros fumeur","régulièrement","Ouvriers"
+"HM244678.3.6.1992.CH","fumeur occasionnel","jamais","Employés"

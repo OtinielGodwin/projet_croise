@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AY619792.15.6.1997.SE","non-fumeur","occasionnellement","Agriculteurs exploitants"
+"U56277.3.6.1997.SE","fumer modéré","occasionnellement","Ouvriers"
+"AF278875.12.6.1997.SE","fumer modéré","occasionnellement","Ouvriers"

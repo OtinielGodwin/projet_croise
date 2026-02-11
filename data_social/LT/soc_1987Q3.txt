@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX946446.5.7.1987.LT","gros fumeur","régulièrement","Professions Intermédiaires"

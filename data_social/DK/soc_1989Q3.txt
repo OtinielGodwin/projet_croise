@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AJ404344.12.9.1989.DK","fumeur léger","régulièrement","Professions Intermédiaires"

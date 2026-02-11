@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AY751058.10.4.1992.ES","fumer modéré","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"AY750998.23.5.1992.ES","fumer modéré","régulièrement","Ouvriers"

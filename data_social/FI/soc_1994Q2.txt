@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF219377.14.6.1994.FI","fumer modéré",NA,"Cadres et professions intellectuelles supérieures"
+"AF219347.18.6.1994.FI","gros fumeur","régulièrement","Professions Intermédiaires"

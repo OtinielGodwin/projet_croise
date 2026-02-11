@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY611652.6.6.1990.AL","gros fumeur","régulièrement","Professions Intermédiaires"

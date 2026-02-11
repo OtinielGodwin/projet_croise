@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF400383.14.11.1992.SE","gros fumeur",NA,"Ouvriers"
+"U76141.10.10.1992.SE","gros fumeur","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"AF400388.4.10.1992.SE","gros fumeur","quotidiennement","Employés"

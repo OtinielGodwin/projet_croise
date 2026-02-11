@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX946641.18.6.1995.LT","fumeur occasionnel","régulièrement","Cadres et professions intellectuelles supérieures"

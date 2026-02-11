@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"MK029208.1.4.1993.RU","fumeur occasionnel","quotidiennement","Ouvriers"
+"EF121279.7.4.1993.RU","fumeur léger","occasionnellement","Employés"
+"KC681880.21.4.1993.RU","fumer modéré","quotidiennement","Employés"
+"MK029219.7.5.1993.RU","fumeur léger","occasionnellement","Cadres et professions intellectuelles supérieures"
+"MK029262.3.6.1993.RU","gros fumeur","occasionnellement","Employés"

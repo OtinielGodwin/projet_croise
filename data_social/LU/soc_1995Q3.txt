@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY185451.14.9.1995.LU","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"

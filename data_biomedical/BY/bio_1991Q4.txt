@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KM190950.6.10.1991.BY",0.478,859,0.8913

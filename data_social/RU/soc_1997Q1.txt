@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AY649360.7.3.1997.RU","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"
+"AF051497.7.1.1997.RU","fumer modéré","jamais","Professions Intermédiaires"
+"KU714967.18.3.1997.RU","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"
+"AF051503.7.2.1997.RU","fumeur occasionnel","occasionnellement","Ouvriers"
+"EU345794.24.2.1997.RU","fumeur léger","jamais","Employés"
+"KC681863.8.3.1997.RU","fumeur léger",NA,"Professions Intermédiaires"

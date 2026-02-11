@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"HM035713.19.7.1994.FR",0.094,1102,0.7694

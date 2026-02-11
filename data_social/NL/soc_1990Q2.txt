@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF403898.21.6.1990.NL","fumer modéré","jamais","Artisans, commerçants et chefs d’entreprise"

@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"KX692047.6.3.1997.CH","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"
+"AF408602.10.2.1997.CH","non-fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"
+"JF326399.27.2.1997.CH","fumeur occasionnel","jamais","Artisans, commerçants et chefs d’entreprise"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"MF124792.5.4.1993.DE","gros fumeur","quotidiennement","Professions Intermédiaires"

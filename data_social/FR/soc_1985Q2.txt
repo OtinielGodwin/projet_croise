@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF003887.9.4.1985.FR","gros fumeur","quotidiennement","Employés"
+"AF003888.12.5.1985.FR","fumeur léger","régulièrement","Professions Intermédiaires"
+"AF070521.6.6.1985.FR","gros fumeur",NA,"Employés"

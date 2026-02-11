@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AF082486.5.5.1997.UA","gros fumeur","occasionnellement","Employés"
+"EU345836.26.5.1997.UA","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"
+"EU345837.7.6.1997.UA","fumeur léger","quotidiennement","Cadres et professions intellectuelles supérieures"
+"AF082483.27.6.1997.UA","fumer modéré","quotidiennement","Employés"
+"AY766067.8.5.1997.UA","fumeur occasionnel","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"EU345840.3.5.1997.UA","fumer modéré","quotidiennement","Employés"

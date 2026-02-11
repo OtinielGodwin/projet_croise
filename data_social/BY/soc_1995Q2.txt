@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF061601.23.6.1995.BY","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"
+"KM190972.14.5.1995.BY","fumeur léger","jamais","Employés"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF219340.24.1.1991.FI","gros fumeur","jamais","Professions Intermédiaires"

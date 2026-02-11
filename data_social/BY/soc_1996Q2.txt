@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"KT733636.23.4.1996.BY","non-fumeur","occasionnellement","Artisans, commerçants et chefs d’entreprise"

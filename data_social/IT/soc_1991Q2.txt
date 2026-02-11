@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"EF114488.2.6.1991.IT","gros fumeur",NA,"Employés"
+"AY900162.7.5.1991.IT","gros fumeur","quotidiennement","Artisans, commerçants et chefs d’entreprise"

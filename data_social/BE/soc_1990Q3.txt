@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"KF773193.18.9.1990.BE","fumer modéré","jamais","Artisans, commerçants et chefs d’entreprise"
+"MH642501.10.7.1990.BE","gros fumeur",NA,"Ouvriers"
+"KF773420.9.7.1990.BE","gros fumeur",NA,"Employés"
+"MH642440.10.7.1990.BE","fumer modéré","occasionnellement","Professions Intermédiaires"

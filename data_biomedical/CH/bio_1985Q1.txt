@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"OM795280.6.1.1985.CH",1.052,146,0.1249

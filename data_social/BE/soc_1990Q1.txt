@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"KT863964.4.1.1990.BE","fumeur léger","occasionnellement","Ouvriers"
+"KT864289.10.2.1990.BE","fumeur léger",NA,"Employés"
+"KF773197.10.1.1990.BE","fumeur léger","quotidiennement","Ouvriers"
+"KF773196.18.1.1990.BE","fumer modéré","occasionnellement","Professions Intermédiaires"
+"MH642411.7.2.1990.BE","fumeur léger","occasionnellement","Professions Intermédiaires"
+"KF773425.12.1.1990.BE","fumeur léger","régulièrement","Professions Intermédiaires"

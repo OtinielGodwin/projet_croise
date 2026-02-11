@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"DQ336661.21.7.1991.CZ",0,652,0.9511

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EF513588.24.10.1991.PT","fumeur léger","jamais","Professions Intermédiaires"

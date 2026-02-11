@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AY090835.10.10.1996.CZ","fumeur occasionnel","occasionnellement","Agriculteurs exploitants"

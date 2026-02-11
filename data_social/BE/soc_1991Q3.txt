@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AJ297113.22.7.1991.BE","gros fumeur","quotidiennement","Artisans, commerçants et chefs d’entreprise"
+"KT864198.25.7.1991.BE","fumeur occasionnel","jamais","Employés"

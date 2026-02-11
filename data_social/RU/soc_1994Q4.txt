@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"KC681862.26.11.1994.RU","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"

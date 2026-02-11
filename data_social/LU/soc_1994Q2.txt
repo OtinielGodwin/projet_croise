@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"AF541547.6.6.1994.LU","gros fumeur",NA,"Professions Intermédiaires"
+"AY185463.15.4.1994.LU","fumer modéré","occasionnellement","Ouvriers"
+"AF541794.19.5.1994.LU","fumer modéré","régulièrement","Artisans, commerçants et chefs d’entreprise"

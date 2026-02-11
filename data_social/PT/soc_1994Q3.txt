@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ700219.10.7.1994.PT","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"GQ462187.27.2.1993.GB","gros fumeur",NA,"Employés"
+"AY677514.24.1.1993.GB","gros fumeur",NA,"Ouvriers"
+"GQ462272.24.3.1993.GB","fumer modéré","jamais","Artisans, commerçants et chefs d’entreprise"
+"AY677512.13.1.1993.GB","fumeur léger","régulièrement","Ouvriers"

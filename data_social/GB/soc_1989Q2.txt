@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"KT860100.18.6.1989.GB","fumeur léger","régulièrement","Ouvriers"
+"AY677497.18.5.1989.GB","fumeur occasionnel","quotidiennement","Employés"
+"AY901162.24.6.1989.GB","fumer modéré",NA,"Professions Intermédiaires"
+"GU217264.19.6.1989.GB","fumeur léger","régulièrement","Professions Intermédiaires"
+"AY677450.13.6.1989.GB","fumeur occasionnel",NA,"Professions Intermédiaires"

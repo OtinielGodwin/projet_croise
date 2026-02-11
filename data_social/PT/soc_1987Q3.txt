@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"EF063088.7.7.1987.PT","gros fumeur",NA,"Employés"

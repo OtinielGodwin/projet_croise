@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"L31963.6.7.1983.FR",1.876,139,0.0558

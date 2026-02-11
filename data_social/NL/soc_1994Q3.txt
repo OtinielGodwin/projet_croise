@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"GQ389225.5.7.1994.NL","fumeur léger","quotidiennement","Ouvriers"
+"L76905.12.7.1994.NL","fumer modéré",NA,"Employés"

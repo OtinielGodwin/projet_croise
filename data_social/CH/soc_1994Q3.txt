@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"KX692155.7.7.1994.CH","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"
+"MT155323.13.9.1994.CH","gros fumeur","occasionnellement","Cadres et professions intellectuelles supérieures"

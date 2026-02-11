@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"DQ336650.8.5.1990.CZ","fumer modéré","quotidiennement","Professions Intermédiaires"
+"EU672530.25.5.1990.CZ","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"
+"DQ975084.18.5.1990.CZ","fumeur léger","régulièrement","Professions Intermédiaires"

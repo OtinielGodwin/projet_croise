@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AJ228215.28.5.1988.BE","gros fumeur","quotidiennement","Artisans, commerçants et chefs d’entreprise"

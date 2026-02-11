@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JX503073.6.1.1985.FR","gros fumeur","occasionnellement","Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"DQ468508.10.3.1997.DK",0.534,619,0.1164

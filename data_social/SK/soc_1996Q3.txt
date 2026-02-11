@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"FN687229.24.7.1996.SK","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"

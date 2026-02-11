@@ -1,0 +1,4 @@
+"ID","smoke","alcohol","csp"
+"KX692177.16.7.1996.CH","gros fumeur","régulièrement","Employés"
+"MT155342.12.7.1996.CH","non-fumeur","régulièrement","Employés"
+"KX691925.3.9.1996.CH","fumer modéré",NA,"Ouvriers"

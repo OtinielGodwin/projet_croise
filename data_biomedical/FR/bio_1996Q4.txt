@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"Z95451.2.11.1996.FR",0.578,NA,0.0242

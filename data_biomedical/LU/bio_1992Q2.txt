@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KT863770.25.5.1992.LU",0.38,631,0.9353

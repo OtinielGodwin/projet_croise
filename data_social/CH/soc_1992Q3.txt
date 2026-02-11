@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"OM795252.13.7.1992.CH","fumeur léger",NA,"Cadres et professions intellectuelles supérieures"

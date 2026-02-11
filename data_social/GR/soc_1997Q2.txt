@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF201735.6.6.1997.GR","fumeur léger","régulièrement","Employés"

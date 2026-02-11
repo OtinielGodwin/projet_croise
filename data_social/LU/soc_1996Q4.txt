@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"HE972438.13.10.1996.LU","fumer modéré","régulièrement","Professions Intermédiaires"
+"AF541793.2.11.1996.LU","gros fumeur","occasionnellement","Employés"

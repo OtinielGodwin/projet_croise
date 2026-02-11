@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF025620.2.11.1993.UA","fumer modéré",NA,"Professions Intermédiaires"
+"AF025583.15.11.1993.UA","fumer modéré",NA,"Professions Intermédiaires"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AJ228205.21.12.1992.BE","fumer modéré",NA,"Cadres et professions intellectuelles supérieures"

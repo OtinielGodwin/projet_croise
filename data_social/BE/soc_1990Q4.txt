@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"MH642581.14.11.1990.BE","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"
+"KT864239.18.12.1990.BE","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"

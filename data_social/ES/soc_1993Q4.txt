@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JF338774.21.11.1993.ES","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"

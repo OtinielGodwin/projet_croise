@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"GU217209.10.12.1994.GB","fumer modéré",NA,"Cadres et professions intellectuelles supérieures"

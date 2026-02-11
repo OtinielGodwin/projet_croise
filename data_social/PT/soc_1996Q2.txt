@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"HQ700093.9.6.1996.PT","fumeur occasionnel","quotidiennement","Agriculteurs exploitants"

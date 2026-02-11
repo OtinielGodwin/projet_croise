@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JN229211.25.12.1991.CZ","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"

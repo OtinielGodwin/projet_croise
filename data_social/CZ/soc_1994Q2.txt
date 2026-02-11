@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"DQ974847.15.6.1994.CZ","gros fumeur","jamais","Artisans, commerçants et chefs d’entreprise"
+"JN229195.17.5.1994.CZ","fumer modéré","occasionnellement","Ouvriers"
+"DQ336662.10.5.1994.CZ","gros fumeur",NA,"Professions Intermédiaires"
+"EU672624.14.6.1994.CZ","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"
+"GQ999098.10.6.1994.CZ","gros fumeur","quotidiennement","Employés"
+"DQ336631.21.6.1994.CZ","fumeur léger","quotidiennement","Cadres et professions intellectuelles supérieures"

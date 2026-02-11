@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"KF773220.9.1.1994.BE","gros fumeur",NA,"Employés"
+"MH642396.5.1.1994.BE","fumeur léger","régulièrement","Employés"
+"MH642601.19.1.1994.BE","fumeur occasionnel","régulièrement","Ouvriers"
+"KF773461.1.1.1994.BE","fumer modéré","régulièrement","Professions Intermédiaires"
+"KF773460.9.1.1994.BE","fumer modéré","régulièrement","Ouvriers"

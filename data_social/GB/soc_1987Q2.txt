@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"GQ462532.24.4.1987.GB","gros fumeur","occasionnellement","Employés"

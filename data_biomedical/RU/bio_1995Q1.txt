@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KC681847.7.3.1995.RU",0.209,963,0.4222

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KJ019215.6.9.1994.GB",0.38,NA,0.7515

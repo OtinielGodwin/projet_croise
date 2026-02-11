@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF125281.7.6.1996.ES","fumer modéré","régulièrement","Cadres et professions intellectuelles supérieures"

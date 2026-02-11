@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF454526.12.9.1993.CZ","fumer modéré","occasionnellement","Cadres et professions intellectuelles supérieures"

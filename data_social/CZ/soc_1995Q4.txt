@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"GQ999123.3.12.1995.CZ","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

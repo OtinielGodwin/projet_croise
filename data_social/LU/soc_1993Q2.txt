@@ -1,0 +1,3 @@
+"ID","smoke","alcohol","csp"
+"AF541524.21.4.1993.LU","fumeur occasionnel","occasionnellement","Employés"
+"AF541797.10.6.1993.LU","non-fumeur","jamais","Agriculteurs exploitants"

@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AJ228159.24.1.1988.BE",0.726,452,0.0046

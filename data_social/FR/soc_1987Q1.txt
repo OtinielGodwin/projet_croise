@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"JN570660.3.2.1987.FR","fumeur léger","quotidiennement","Employés"

@@ -1,0 +1,2 @@
+"ID","smoke","alcohol","csp"
+"AF403828.10.9.1988.NL","fumeur occasionnel","quotidiennement","Ouvriers"

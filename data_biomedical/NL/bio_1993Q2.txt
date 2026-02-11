@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"GQ389224.12.5.1993.NL",0,1164,0.9295

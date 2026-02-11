@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"KT733646.11.6.1991.BY",0,545,NA

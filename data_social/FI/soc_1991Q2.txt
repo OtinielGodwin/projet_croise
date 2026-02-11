@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"AF219263.24.6.1991.FI","fumer modéré","occasionnellement","Professions Intermédiaires"
+"AF219358.24.6.1991.FI","gros fumeur","occasionnellement","Professions Intermédiaires"
+"AF219262.22.6.1991.FI","gros fumeur",NA,"Ouvriers"
+"AF219350.7.5.1991.FI","fumeur léger","régulièrement","Ouvriers"

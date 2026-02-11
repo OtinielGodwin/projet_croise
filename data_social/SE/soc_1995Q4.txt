@@ -1,0 +1,6 @@
+"ID","smoke","alcohol","csp"
+"AF069673.19.10.1995.SE","fumer modéré","régulièrement","Employés"
+"AF278887.10.11.1995.SE","fumeur occasionnel","jamais","Artisans, commerçants et chefs d’entreprise"
+"AF397981.3.10.1995.SE","fumeur léger","régulièrement","Cadres et professions intellectuelles supérieures"
+"EF673121.26.10.1995.SE","fumeur léger","jamais","Ouvriers"
+"EF673125.10.11.1995.SE","fumer modéré","quotidiennement","Cadres et professions intellectuelles supérieures"

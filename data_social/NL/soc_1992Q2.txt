@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"L76893.24.6.1992.NL","fumeur léger","occasionnellement","Artisans, commerçants et chefs d’entreprise"
+"AF403868.8.5.1992.NL","gros fumeur","régulièrement","Cadres et professions intellectuelles supérieures"
+"AF403857.28.6.1992.NL","fumer modéré","occasionnellement","Cadres et professions intellectuelles supérieures"
+"L76891.19.6.1992.NL","fumeur léger","quotidiennement","Cadres et professions intellectuelles supérieures"

@@ -1,0 +1,5 @@
+"ID","smoke","alcohol","csp"
+"GQ462526.19.7.1991.GB","fumer modéré",NA,"Professions Intermédiaires"
+"GQ462428.26.9.1991.GB","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"GU217265.19.7.1991.GB","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"
+"AY677469.5.7.1991.GB","fumeur léger","quotidiennement","Cadres et professions intellectuelles supérieures"

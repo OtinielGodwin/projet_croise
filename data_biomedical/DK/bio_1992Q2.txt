@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"AJ252866.21.4.1992.DK",0.467,NA,0.6893

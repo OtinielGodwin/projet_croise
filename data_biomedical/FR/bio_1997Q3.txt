@@ -1,0 +1,2 @@
+"nam","charge_virale","CD4","anticorps"
+"FJ376019.12.7.1997.FR",0,NA,0.8525

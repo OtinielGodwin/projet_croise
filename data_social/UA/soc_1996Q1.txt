@@ -1,0 +1,7 @@
+"ID","smoke","alcohol","csp"
+"AF025611.26.2.1996.UA","fumeur occasionnel","occasionnellement","Professions Intermédiaires"
+"U93668.10.3.1996.UA","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"
+"AF051524.8.3.1996.UA","fumer modéré","jamais","Cadres et professions intellectuelles supérieures"
+"AF025646.1.1.1996.UA","fumeur léger","quotidiennement","Employés"
+"U93675.5.2.1996.UA","fumeur léger","quotidiennement","Employés"
+"U93681.21.1.1996.UA","fumer modéré","régulièrement","Professions Intermédiaires"
