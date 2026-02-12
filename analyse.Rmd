@@ -1,0 +1,237 @@
+---
+title: "Analyse en Composantes Principales (ACP) Rapport"
+author: "Erwan"
+date: "12/02/2026"
+output:
+  html_document:
+    warning: false
+    message: false
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+library(tidyverse)# ensemble de packages utiles pour manipuler et visualiser les données
+library(janitor)#  fonctions pratiques pour nettoyer les noms de colonnes (clean_names, etc.)
+library(skimr) #résumé statistique rapide du jeu de données
+library(FactoMineR) #réalisation de l'ACP
+library(factoextra) #visualisations et extraction des résultats de l'ACP
+library(missMDA)  #imputation des valeurs manquantes adaptée à l'ACP 
+```
+
+#Import et aperçu
+```{r}
+# Importer les données depuis le fichier CSV puis nettoyer les noms de colonnes
+df_raw <- readr::read_csv("db.csv") |> janitor::clean_names()
+# Aperçu de la structure du tableau (types, quelques valeurs) pour vérifier l'import
+glimpse(df_raw)
+# Résumé descriptif plus complet (NA, statistiques, distribution) pour repérer anomalies et manquants
+skimr::skim(df_raw)
+```
+
+# Nettoyage / sélection
+```{r}
+# Préparer le jeu de données pour l'analyse
+df <- df_raw |>
+  mutate(
+    # Conversion des variables qualitatives en facteurs (catégories) pour          éviter des erreurs d'interprétation
+    pays = as.factor(nom_pays),
+    trimestre = as.factor(trimestre),
+    smoke = as.factor(smoke),
+    alcohol = as.factor(alcohol),
+    csp = as.factor(csp)
+  ) |>
+  select(
+    # Sélection des colonnes utiles
+    id_global, nom_pays, annee, trimestre, smoke, alcohol, csp,
+    charge_virale, cd4, anticorps, ca_15_3, ca_15_3_apres,
+    sequence_adn
+  )
+# verification rapide du resultat
+glimpse(df)
+```
+
+# Valeurs manquantes (diagnostic)
+```{r}
+# 9) Calculer le taux de valeurs manquantes (NA) pour chaque variable
+#    -> summarise(across()) : applique la même formule à toutes les colonnes
+#    -> mean(is.na(.)) : proportion de NA
+#    -> pivot_longer : passer au format long (plus simple à trier/afficher)
+na_rate <- df |> summarise(across(everything(), ~mean(is.na(.)))) |> pivot_longer(everything())
+# Trier du plus manquant au moins manquant pour identifier les variables problématiques
+na_rate |> arrange(desc(value))
+```
+
+
+# Visualisation des manquants
+```{r}
+# Visualiser la matrice de valeurs manquantes (où se trouvent les NA dans le tableau)
+# utile pour voir si les manquants sont concentrés sur certaines variables/individus
+naniar::vis_miss(df)
+```
+
+# ACP sur les biomarqueurs (quanti)
+# Matrice quantitative + estimation du nb de dimensions pour imputation
+```{r}
+# Isoler les variables quantitatives qui serviront à l'ACP
+X_quanti <- df |>
+  select(charge_virale, cd4, anticorps, ca_15_3, ca_15_3_apres)
+# Vérifier les statistiques de base 
+summary(X_quanti)
+
+# Estimation du nombre optimal de composantes pour l'imputation PCA
+set.seed(123) # Fixe l'aléatoire pour obtenir des résultats reproductibles
+ncp_est <- missMDA::estim_ncpPCA(X_quanti, ncp.max = 5)
+ncp_est$ncp  # Nombre de composantes retenu
+```
+
+# Imputation PCA (missMDA) puis ACP (FactoMineR)
+```{r}
+# 13) Imputer les valeurs manquantes puis réaliser l'ACP
+set.seed(123)
+imp <- missMDA::imputePCA(X_quanti, ncp = ncp_est$ncp)
+# Lancer l'ACP sur les données imputées :
+res_pca <- FactoMineR::PCA(
+  imp$completeObs,
+  scale.unit = TRUE,
+  graph = FALSE
+)
+# Afficher un résumé des résultats (inertie, coordonnées, contributions)
+res_pca
+```
+# Matrice de corrélation 
+```{r}
+# Matrice utilisée dans l'ACP (imputée)
+X_imp <- as.data.frame(imp$completeObs)
+
+# Matrice de corrélation
+cor_mat <- cor(X_imp, method = "pearson")
+
+# Mise en format long pour ggplot
+cor_long <- as.data.frame(cor_mat) %>%
+  rownames_to_column("var1") %>%
+  pivot_longer(-var1, names_to = "var2", values_to = "r") %>%
+  mutate(
+    var1 = factor(var1, levels = colnames(cor_mat)),
+    var2 = factor(var2, levels = colnames(cor_mat))
+  )
+
+# Heatmap ggplot
+ggplot(cor_long, aes(var1, var2, fill = r)) +
+  geom_tile(color = "green", linewidth = 0.6) +
+  geom_text(aes(label = sprintf("%.2f", r)), size = 4) +
+  scale_fill_gradient2(
+    low = "blue", mid = "yellow", high = "red",
+    midpoint = 0, limits = c(-1, 1), name = "Corr (r)"
+  ) +
+  coord_equal() +
+  labs(
+    title = "Matrice de corrélation (Pearson) — biomarqueurs (imputés)",
+    x = NULL, y = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid = element_blank(),
+    legend.position = "right"
+  )
+
+```
+# Résultats principaux de l’ACP
+# Variance expliquée (scree plot)
+```{r}
+# 14) Extraire les valeurs propres (eigenvalues) : part de variance expliquée par chaque axe
+eig <- get_eigenvalue(res_pca)
+eig
+# Graphique des valeurs propres (scree plot) avec étiquettes :
+# permet de voir combien d'axes expliquent la majorité de la variance
+fviz_eig(res_pca, addlabels = TRUE)
+```
+
+# Cercle des corrélations (variables)
+```{r}
+# Carte des variables : représentation des variables dans le plan factoriel
+# col.var = "cos2" colore selon la qualité de représentation sur les axes
+# repel = TRUE évite le chevauchement des étiquettes
+fviz_pca_var(res_pca, col.var = "cos2", repel = TRUE)
+```
+
+# Contributions des variables
+```{r}
+# Contributions des variables à l'axe 1 : top 10
+fviz_contrib(res_pca, choice = "var", axes = 1, top = 10)
+# Contributions des variables à l'axe 2 : top 10
+fviz_contrib(res_pca, choice = "var", axes = 2, top = 10)
+```
+
+# Individus (observations) + détection d’atypiques
+```{r}
+# 19) Carte des individus (points) sur le plan factoriel
+fviz_pca_ind(res_pca, geom = "point", alpha.ind = 0.4)
+```
+
+# Points les plus extrêmes sur Dim1/Dim2 (à interpréter comme profils atypiques)
+```{r}
+# Identifier des individus "extrêmes" sur la dimension 1
+ind <- get_pca_ind(res_pca)
+# Trier par valeur absolue de la coordonnée sur Dim.1 (les plus éloignés de l'origine) puis afficher les 10 premiers
+head(ind$coord[order(abs(ind$coord[,1]), decreasing=TRUE), ], 10)
+```
+
+# Variables qualitatives en supplémentaires
+# On projette pays, trimestre, smoke, alcohol, csp sur l’espace défini par les biomarqueurs.
+#Fusion scores ACP + variables quali
+```{r}
+# Construire un tableau de scores : coordonnées ACP + variables descriptives
+scores <- as_tibble(res_pca$ind$coord) |>
+   # Ajouter des variables qualitatives/temps pour interpréter les positions des individus
+  bind_cols(df |> select(nom_pays, trimestre, smoke, alcohol, csp, annee))
+# Vérifier le résultat
+head(scores)
+```
+
+# Visualisation : individus colorés par groupe
+```{r}
+# Deuxième visualisation des individus (même idée, paramètres légèrement ajustés)
+fviz_pca_ind(res_pca, geom = "point", alpha.ind = 0.35) 
+```
+
+# Par pays 
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Récupérer les coordonnées des individus sur les deux premières dimensions
+coord2 <- as.data.frame(res_pca$ind$coord)[, 1:2] %>%
+  as_tibble() %>%
+  mutate(
+    # On rattache à chaque individu ses modalités (groupes) pour comparer les profi
+    smoke   = df$smoke,
+    alcohol = df$alcohol,
+    csp     = df$csp
+  ) %>%
+   # Passer au format long : une colonne "variable" (smoke/alcohol/csp) + une colonne "groupe"
+  pivot_longer(cols = c(smoke, alcohol, csp),
+               names_to = "variable",
+               values_to = "groupe")
+# Tracer les individus + ellipses (intervalle de confiance 95%) par groupe,
+# séparément pour chaque variable (facettes)
+ggplot(coord2, aes(Dim.1, Dim.2)) +
+  geom_point(alpha = 0.20, size = 1) +
+  stat_ellipse(aes(group = groupe), level = 0.95, type = "norm",
+               linewidth = 0.6, alpha = 0.12) +
+  facet_wrap(~ variable) +
+  theme_minimal() +
+  labs(title = "ACP – ellipses par variable (smoke / alcohol / csp)",
+       x = "Dim 1", y = "Dim 2")
+
+```
+
+
+
+
+
+
