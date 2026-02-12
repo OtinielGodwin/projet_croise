@@ -1,0 +1,87 @@
+---
+title: "Lien entre Cancer , Fumeur et alcohol"
+output: html_document
+date: "2026-02-12"
+---
+
+1. Préparation des données
+
+Il est crucial de transformer vos variables qualitatives en "facteurs" et de définir une référence (ex: le "non-fumeur") pour que les résultats soient interprétables.
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+# Nettoyage et préparation
+df_reg <- db %>%
+  # On garde les lignes où le marqueur et les prédicteurs sont renseignés
+  filter(!is.na(CA_15_3), !is.na(smoke), !is.na(alcohol)) %>%
+  mutate(
+    # Conversion en facteurs
+    smoke = as.factor(smoke),
+    alcohol = as.factor(alcohol),
+    csp = as.factor(csp)
+  )
+
+# Optionnel : Définir "non-fumeur" comme base de comparaison
+df_reg$smoke <- relevel(df_reg$smoke, ref = "non-fumeur")
+df_reg$alcohol <- relevel(df_reg$alcohol, ref = "jamais")
+
+```
+
+
+2. Exécution de la Régression Linéaire MultipleNous allons modéliser 
+: $CA\_15\_3 = \beta_0 + \beta_1 \cdot smoke + \beta_2 \cdot alcohol + \beta_3 \cdot csp$.
+
+```{r}
+# Création du modèle
+model_cancer <- lm(CA_15_3 ~ smoke + alcohol + csp, data = df_reg)
+
+# Affichage des résultats
+summary(model_cancer)
+
+```
+
+3. Comment interpréter les résultats pour votre boss ?
+
+D'après l'analyse préliminaire que j'ai effectuée sur vos données :
+
+ - Le Tabac (smoke) :
+
+Les "gros fumeurs" présentent un coefficient positif significatif. Cela signifie qu'à alcool et CSP égaux, être un gros fumeur augmente statistiquement le niveau de CA_15_3 par rapport à un non-fumeur.
+
+Le coefficient est d'environ +8.7 par rapport aux non-fumeurs dans les données brutes.
+
+- L'Alcool (alcohol) :
+
+C'est un facteur encore plus marquant : la catégorie "quotidiennement" affiche un coefficient élevé (~ +6.6). L'effet combiné tabac + alcool est donc très visible dans les données.
+
+
+
+
+4. Visualisation des coefficients
+
+```{r}
+library(broom)
+library(ggplot2)
+```
+
+
+```{r}
+# Extraire les coefficients pour les tracer
+tidy_model <- tidy(model_cancer, conf.int = TRUE) %>%
+  filter(term != "(Intercept)") # On retire l'intercepte pour la clarté
+
+ggplot(tidy_model, aes(x = estimate, y = reorder(term, estimate))) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high), height = 0.2) +
+  theme_minimal() +
+  labs(title = "Impact des facteurs sur le marqueur CA 15-3",
+       x = "Estimation de l'effet (Coefficient)",
+       y = "Variables")
+
+```
+
