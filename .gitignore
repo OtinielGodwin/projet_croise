@@ -47,6 +47,7 @@ lancer_app*.bat
 !README.md
 !CHANGELOG.md
 !DEPLOIEMENT_SHINYAPPS.md
+!DEPLOIEMENT_INSTRUCTIONS.md
 !INSTRUCTIONS_GIT.md
 data/
 R/import_data.R
@@ -55,5 +56,5 @@ R/filter_data.R
 R/design_guide.R
 modules/mod_import_csv.R
 
-# Scripts de déploiement (contient des identifiants potentiels)
-deploy_shinyapps.R
+# Scripts de déploiement (garder le script mais ne pas commiter les identifiants)
+# deploy_shinyapps.R est maintenant inclus dans le dépôt
