@@ -56,5 +56,6 @@ R/filter_data.R
 R/design_guide.R
 modules/mod_import_csv.R
 
-# Scripts de déploiement (garder le script mais ne pas commiter les identifiants)
-# deploy_shinyapps.R est maintenant inclus dans le dépôt
+# Scripts de déploiement temporaires avec identifiants
+DEPLOY_NOW.R
+deploy_now.R
