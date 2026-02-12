@@ -34,3 +34,7 @@ files:
 shiny:
   minify: true
   maxRequestSize: 100MB
+
+# Configuration serveur
+server:
+  name: shinyapps.io

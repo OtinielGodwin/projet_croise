@@ -54,3 +54,6 @@ R/load_data.R
 R/filter_data.R
 R/design_guide.R
 modules/mod_import_csv.R
+
+# Scripts de déploiement (contient des identifiants potentiels)
+deploy_shinyapps.R
