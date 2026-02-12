@@ -1,0 +1,92 @@
+---
+title: "Prédiction du nombre de cas par trimestre"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+```
+
+1- Préparation des données temporelles
+Pour le modèle autorégressif, nous devons transformer le dataset pour avoir un compte par trimestre et créer une variable décalée (Lag).
+
+```{r}
+# Chargement
+db <- read.csv("db.csv")
+
+# Création d'un index temporel propre
+df_time <- db %>%
+  group_by(annee, trimestre) %>%
+  summarise(cas_actuels = n(), .groups = 'drop') %>%
+  arrange(annee, trimestre) %>%
+  # Création de la variable décalée (le trimestre précédent)
+  mutate(cas_precedents = lag(cas_actuels))
+
+# On retire la première ligne qui contient un NA pour le lag
+df_prediction <- na.omit(df_time)
+
+head(df_prediction)
+
+```
+
+2- Le Modèle Autorégressif (AR1)Le modèle tente de prédire $Cas_{T}$ en fonction de $Cas_{T-1}$.
+
+```{r}
+
+model_ar1 <- lm(cas_actuels ~ cas_precedents, data = df_prediction)
+
+summary(model_ar1)
+
+```
+3- Visualisation de la performance
+Corrélation T vs T-1
+
+```{r}
+ggplot(df_prediction, aes(x = cas_precedents, y = cas_actuels)) +
+  geom_point(color = "steelblue", alpha = 0.6) +
+  geom_smooth(method = "lm", col = "red") +
+  theme_minimal() +
+  labs(title = "Relation entre les cas du trimestre T et T-1",
+       x = "Nombre de cas au trimestre précédent",
+       y = "Nombre de cas observés")
+
+```
+
+
+Évolution Réel vs Prédit
+
+
+```{r}
+
+library(plotly)
+
+# Préparation d'une colonne Date pour l'affichage
+df_prediction <- df_prediction %>%
+  mutate(date_proj = as.Date(paste(annee, (as.numeric(gsub("Q", "", trimestre))*3-2), "01", sep="-")))
+
+p <- ggplot(df_prediction, aes(x = date_proj)) +
+  geom_line(aes(y = cas_actuels, color = "Réel"), size = 0.8) +
+  geom_line(aes(y = predictions, color = "Prédit"), linetype = "dashed", size = 0.8) +
+  scale_color_manual(values = c("Réel" = "black", "Prédit" = "red")) +
+  theme_minimal() +
+  labs(title = "Comparaison Réel vs Prédit (Zoomable)",
+       y = "Nombre de cas", x = "Temps")
+
+# Transformation en graphique interactif
+ggplotly(p)
+
+```
+
+```{r}
+residuals <- df_prediction$cas_actuels - df_prediction$predictions
+rmse_val <- sqrt(mean(residuals^2))
+```
+
+```{r}
+rmse_val
+```
+Le modèle capture 32% de la tendance (R²) avec une erreur moyenne de 36 cas, ce qui est une base solide pour un premier modèle autoregressif sur des données brutes.
+
