@@ -1,0 +1,458 @@
+/* ==============================================================================
+   STYLES PERSONNALISÉS - Dashboard Shiny Académique
+   ==============================================================================
+   Style : élégant, moderne, académique
+   Couleurs : bleu (#1E5A8E), gris (#6C757D), blanc (#FFFFFF)
+   Typographie : Lato (Google Fonts)
+   ============================================================================== */
+
+/* ------------------------------------------------------------------------------
+   Variables CSS (pour référence, les couleurs sont aussi dans R)
+   ------------------------------------------------------------------------------ */
+:root {
+  --color-primary: #1E5A8E;
+  --color-primary-light: #4A7BA7;
+  --color-primary-dark: #0F3D5C;
+  --color-secondary: #6C757D;
+  --color-secondary-light: #ADB5BD;
+  --color-secondary-dark: #495057;
+  --color-bg-white: #FFFFFF;
+  --color-bg-light: #F8F9FA;
+  --color-bg-medium: #E9ECEF;
+  --color-bg-dark: #2C3E50;
+  --color-text-primary: #2C3E50;
+  --color-text-secondary: #6C757D;
+  --color-text-muted: #ADB5BD;
+  --spacing-unit: 1rem;
+  --border-radius: 0.375rem;
+  --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --shadow-md: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* ------------------------------------------------------------------------------
+   Typographie globale
+   ------------------------------------------------------------------------------ */
+body {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-unit);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 3px solid var(--color-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ------------------------------------------------------------------------------
+   Navbar (barre de navigation supérieure)
+   ------------------------------------------------------------------------------ */
+.navbar {
+  background-color: var(--color-primary) !important;
+  border-bottom: 3px solid var(--color-primary-dark);
+  box-shadow: var(--shadow-md);
+  padding: 0.75rem 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-bg-white) !important;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-bg-white) !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--color-bg-white) !important;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------------------
+   Sidebar (barre latérale)
+   ------------------------------------------------------------------------------ */
+.sidebar {
+  background-color: var(--color-bg-light);
+  border-right: 1px solid var(--color-bg-medium);
+  padding: var(--spacing-unit);
+}
+
+.sidebar h3 {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-bg-medium);
+}
+
+/* ------------------------------------------------------------------------------
+   Cartes (cards)
+   ------------------------------------------------------------------------------ */
+.card {
+  border: 1px solid var(--color-bg-medium);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  background-color: var(--color-bg-white);
+  margin-bottom: var(--spacing-unit);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary-light);
+}
+
+.card-header {
+  background-color: var(--color-bg-light);
+  border-bottom: 2px solid var(--color-primary);
+  padding: 1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+/* ------------------------------------------------------------------------------
+   Boutons
+   ------------------------------------------------------------------------------ */
+.btn {
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-bg-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-bg-white);
+}
+
+/* ------------------------------------------------------------------------------
+   Formulaires et contrôles
+   ------------------------------------------------------------------------------ */
+.form-control,
+.form-select {
+  border: 1px solid var(--color-bg-medium);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 0.2rem rgba(30, 90, 142, 0.25);
+  outline: none;
+}
+
+.form-label {
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* ------------------------------------------------------------------------------
+   Tableaux (DataTables)
+   ------------------------------------------------------------------------------ */
+.dataTables_wrapper {
+  font-size: 0.95rem;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px solid var(--color-bg-medium);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border-radius: var(--border-radius);
+  margin: 0 0.25rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: var(--color-primary) !important;
+  color: var(--color-bg-white) !important;
+  border-color: var(--color-primary) !important;
+}
+
+table.dataTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table.dataTable thead th {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-primary);
+  padding: 0.75rem;
+}
+
+table.dataTable tbody td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--color-bg-medium);
+}
+
+table.dataTable tbody tr:hover {
+  background-color: var(--color-bg-light);
+}
+
+/* ------------------------------------------------------------------------------
+   Graphiques (conteneurs)
+   ------------------------------------------------------------------------------ */
+.plot-container {
+  background-color: var(--color-bg-white);
+  border: 1px solid var(--color-bg-medium);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-bottom: var(--spacing-unit);
+}
+
+.plot-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+/* ------------------------------------------------------------------------------
+   Alertes et messages
+   ------------------------------------------------------------------------------ */
+.alert {
+  border-radius: var(--border-radius);
+  border-left: 4px solid;
+  padding: 1rem;
+  margin-bottom: var(--spacing-unit);
+}
+
+.alert-info {
+  background-color: rgba(23, 162, 184, 0.1);
+  border-color: #17A2B8;
+  color: #0C5460;
+}
+
+.alert-success {
+  background-color: rgba(40, 167, 69, 0.1);
+  border-color: #28A745;
+  color: #155724;
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-color: #FFC107;
+  color: #856404;
+}
+
+.alert-danger {
+  background-color: rgba(220, 53, 69, 0.1);
+  border-color: #DC3545;
+  color: #721C24;
+}
+
+/* ------------------------------------------------------------------------------
+   Badges et labels
+   ------------------------------------------------------------------------------ */
+.badge {
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.badge-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg-white);
+}
+
+.badge-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-bg-white);
+}
+
+/* ------------------------------------------------------------------------------
+   KPI et indicateurs
+   ------------------------------------------------------------------------------ */
+.kpi-card {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--color-bg-white) 0%, var(--color-bg-light) 100%);
+  border: 1px solid var(--color-bg-medium);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.kpi-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0.5rem 0;
+}
+
+.kpi-label {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.kpi-change {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.kpi-change.positive {
+  color: #28A745;
+}
+
+.kpi-change.negative {
+  color: #DC3545;
+}
+
+/* ------------------------------------------------------------------------------
+   Espacements et utilitaires
+   ------------------------------------------------------------------------------ */
+.mt-section {
+  margin-top: 3rem;
+}
+
+.mb-section {
+  margin-bottom: 3rem;
+}
+
+.text-muted-custom {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.border-accent {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 1rem;
+}
+
+/* ------------------------------------------------------------------------------
+   Responsive (adaptations pour petits écrans)
+   ------------------------------------------------------------------------------ */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .kpi-value {
+    font-size: 2rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+/* ------------------------------------------------------------------------------
+   Imprimer (styles pour impression)
+   ------------------------------------------------------------------------------ */
+@media print {
+  .navbar,
+  .sidebar,
+  .btn,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_paginate {
+    display: none !important;
+  }
+  
+  .card {
+    border: 1px solid #000;
+    page-break-inside: avoid;
+  }
+  
+  body {
+    color: #000;
+    background: #fff;
+  }
+}

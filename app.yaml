@@ -1,0 +1,36 @@
+# Configuration pour le déploiement sur shinyapps.io
+# Ce fichier est utilisé par rsconnect pour configurer l'application
+
+name: dashboard-projet-croise
+title: Dashboard Projet Croisé
+runtime: shiny
+runtimeVersion: 4.5.2
+
+# Dépendances R
+packages:
+  - shiny
+  - shinyjs
+  - bslib
+  - dplyr
+  - ggplot2
+  - DT
+  - plotly
+  - FactoMineR
+  - factoextra
+  - cluster
+  - glmnet
+  - tidyr
+
+# Fichiers à inclure
+files:
+  - app.R
+  - db.csv
+  - R/
+  - modules/
+  - ui/
+  - www/
+
+# Options Shiny
+shiny:
+  minify: true
+  maxRequestSize: 100MB

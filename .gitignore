@@ -1,0 +1,56 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Shiny
+rsconnect/
+shinyapps.io/
+
+# Données temporaires
+*.csv.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environnement virtuel R
+renv/
+
+# Fichiers de sauvegarde
+*~
+*.swp
+*.bak
+
+# Fichiers obsolètes à ne pas commiter
+app_avec_import.R
+app_minimal.R
+app_sans_csv.R
+server.R
+global.R
+test_ui.R
+example_*.R
+lancer_app*.bat
+# Documentation (garder seulement les fichiers essentiels)
+*.md
+!README.md
+!CHANGELOG.md
+!DEPLOIEMENT_SHINYAPPS.md
+!INSTRUCTIONS_GIT.md
+data/
+R/import_data.R
+R/load_data.R
+R/filter_data.R
+R/design_guide.R
+modules/mod_import_csv.R

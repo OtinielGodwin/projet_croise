@@ -1,0 +1,18 @@
+{
+  "name": "dashboard-projet-croise",
+  "title": "Dashboard Projet Croisé",
+  "description": "Dashboard Shiny pour l'analyse des facteurs génétiques et comportementaux sur les marqueurs du cancer du sein",
+  "author": "OtinielGodwin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OtinielGodwin/projet_croise"
+  },
+  "keywords": [
+    "shiny",
+    "dashboard",
+    "data-science",
+    "r",
+    "cancer-analysis"
+  ]
+}
