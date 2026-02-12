@@ -546,33 +546,71 @@ mod_acp_server <- function(
         ))
       }
       
-      # Je récupère les valeurs propres et le pourcentage de variance
-      eig <- get_eigenvalue(acp)
+      # Je récupère les valeurs propres et le pourcentage de variance avec gestion d'erreur robuste
+      eig <- tryCatch({
+        eig_result <- get_eigenvalue(acp)
+        if (is.null(eig_result)) return(NULL)
+        
+        # Vérifier si c'est un vecteur atomique
+        if (is.atomic(eig_result) && !is.null(names(eig_result))) {
+          warning("⚠️ get_eigenvalue retourne un vecteur atomique, conversion impossible")
+          return(NULL)
+        }
+        
+        # Vérifier si c'est un data.frame ou une matrice
+        if (is.data.frame(eig_result) || is.matrix(eig_result)) {
+          # Vérifier que les colonnes nécessaires existent
+          if (!"eigenvalue" %in% names(eig_result) && !"eigenvalue" %in% colnames(eig_result)) {
+            warning("⚠️ Colonne 'eigenvalue' non trouvée dans get_eigenvalue")
+            return(NULL)
+          }
+          return(eig_result)
+        }
+        
+        return(NULL)
+      }, error = function(e) {
+        warning("❌ Erreur lors de la récupération des valeurs propres : ", e$message)
+        return(NULL)
+      })
+      
+      if (is.null(eig)) {
+        return(data.frame(
+          Message = "Impossible de récupérer les valeurs propres. Vérifiez que l'ACP a été calculée correctement."
+        ))
+      }
       
       # Je crée un dataframe avec l'interprétation
-      eig_df <- data.frame(
-        Axe = rownames(eig),
-        "Valeur propre" = round(eig$eigenvalue, 3),
-        "Pourcentage de variance" = round(eig$variance.percent, 2),
-        "Pourcentage cumulé" = round(eig$cumulative.variance.percent, 2),
-        check.names = FALSE
-      )
-      
-      DT::datatable(
-        eig_df,
-        options = list(
-          pageLength = 10,
-          dom = 't',
-          language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json')
-        ),
-        rownames = FALSE,
-        class = "display nowrap"
-      ) %>%
-        DT::formatStyle(
-          "Axe",
-          fontWeight = "bold",
-          color = "#1E5A8E"
+      tryCatch({
+        eig_df <- data.frame(
+          Axe = rownames(eig),
+          "Valeur propre" = round(eig$eigenvalue, 3),
+          "Pourcentage de variance" = round(eig$variance.percent, 2),
+          "Pourcentage cumulé" = round(eig$cumulative.variance.percent, 2),
+          check.names = FALSE,
+          stringsAsFactors = FALSE
         )
+        
+        DT::datatable(
+          eig_df,
+          options = list(
+            pageLength = 10,
+            dom = 't',
+            language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json')
+          ),
+          rownames = FALSE,
+          class = "display nowrap"
+        ) %>%
+          DT::formatStyle(
+            "Axe",
+            fontWeight = "bold",
+            color = "#1E5A8E"
+          )
+      }, error = function(e) {
+        warning("❌ Erreur lors de la création du tableau : ", e$message)
+        return(data.frame(
+          Message = paste("Erreur lors de l'affichage des valeurs propres :", e$message)
+        ))
+      })
     })
     
     # ==========================================================================
@@ -630,7 +668,25 @@ mod_acp_server <- function(
           title = paste("Projection des individus sur les axes", axis1, "et", axis2),
           subtitle = {
             eigenvals <- tryCatch({
-              eig <- get_eigenvalue(acp)
+              eig <- tryCatch({
+                eig_result <- get_eigenvalue(acp)
+                if (is.null(eig_result)) return(NULL)
+                if (is.atomic(eig_result) && !is.null(names(eig_result))) {
+                  warning("⚠️ get_eigenvalue retourne un vecteur atomique")
+                  return(NULL)
+                }
+                if (is.data.frame(eig_result) || is.matrix(eig_result)) {
+                  return(eig_result)
+                }
+                return(NULL)
+              }, error = function(e) {
+                warning("❌ Erreur get_eigenvalue : ", e$message)
+                return(NULL)
+              })
+              
+              if (is.null(eig)) {
+                return(NULL)
+              }
               if (is.null(eig) || !is.data.frame(eig) && !is.matrix(eig)) {
                 return(list(var1 = 0, var2 = 0))
               }
