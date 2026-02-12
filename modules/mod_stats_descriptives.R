@@ -145,7 +145,7 @@ mod_stats_descriptives_ui <- function(id) {
               class = "card-body",
               style = "padding: 1.5rem;",
               
-              plotOutput(ns("histogram"), height = "400px")
+              plotOutput(ns("histogram"), height = "400px", width = "100%")
             )
           )
         ),
@@ -171,7 +171,7 @@ mod_stats_descriptives_ui <- function(id) {
               class = "card-body",
               style = "padding: 1.5rem;",
               
-              plotOutput(ns("boxplot"), height = "400px")
+              plotOutput(ns("boxplot"), height = "400px", width = "100%")
             )
           )
         )
@@ -387,7 +387,12 @@ mod_stats_descriptives_server <- function(
       data <- filtered_data()
       var <- input$variable
       
-      if (is.null(data) || is.null(var) || var == "" || !var %in% names(data)) {
+      # Vérifications préliminaires
+      if (is.null(data) || nrow(data) == 0) {
+        return(NULL)
+      }
+      
+      if (is.null(var) || var == "" || !var %in% names(data)) {
         return(NULL)
       }
       
@@ -398,27 +403,28 @@ mod_stats_descriptives_server <- function(
         return(NULL)
       }
       
-      # Je calcule toutes les statistiques
+      # Je calcule toutes les statistiques avec gestion des erreurs
       stats <- list(
         "Nombre d'observations" = length(values),
         "Valeurs manquantes" = sum(is.na(data[[var]])),
         "Moyenne" = mean(values),
         "Médiane" = median(values),
-        "Écart-type" = sd(values),
-        "Variance" = var(values),
+        "Écart-type" = ifelse(length(values) > 1, sd(values), 0),
+        "Variance" = ifelse(length(values) > 1, var(values), 0),
         "Minimum" = min(values),
         "Maximum" = max(values),
-        "1er quartile (Q1)" = quantile(values, 0.25),
-        "3ème quartile (Q3)" = quantile(values, 0.75),
+        "1er quartile (Q1)" = quantile(values, 0.25, names = FALSE),
+        "3ème quartile (Q3)" = quantile(values, 0.75, names = FALSE),
         "Étendue" = max(values) - min(values),
-        "Coefficient de variation" = sd(values) / mean(values) * 100
+        "Coefficient de variation" = ifelse(mean(values) != 0, sd(values) / mean(values) * 100, 0)
       )
       
       # Je formate les résultats dans un dataframe
       stats_df <- data.frame(
         Statistique = names(stats),
         Valeur = unlist(stats),
-        row.names = NULL
+        row.names = NULL,
+        stringsAsFactors = FALSE
       )
       
       return(stats_df)

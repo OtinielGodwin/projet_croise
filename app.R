@@ -601,22 +601,18 @@ server <- function(input, output, session) {
   available_date_range <- reactive({
     data <- db_data_reactive()
     if (!is.null(data) && nrow(data) > 0) {
-      date_cols <- c("annee", "year", "date", "trimestre")
-      date_col <- NULL
-      for (col in date_cols) {
-        if (col %in% names(data)) {
-          date_col <- col
-          break
-        }
-      }
-      
-      if (!is.null(date_col)) {
-        dates <- data[[date_col]]
-        dates <- dates[!is.na(dates)]
-        if (length(dates) > 0) {
-          if (date_col == "annee" || date_col == "year") {
-            return(list(start_date = min(dates, na.rm = TRUE), end_date = max(dates, na.rm = TRUE)))
-          }
+      # Utiliser la colonne annee pour créer une plage de dates
+      if ("annee" %in% names(data)) {
+        years <- data[["annee"]]
+        years <- years[!is.na(years)]
+        if (length(years) > 0) {
+          min_year <- min(years, na.rm = TRUE)
+          max_year <- max(years, na.rm = TRUE)
+          # Convertir les années en dates (1er janvier de chaque année)
+          return(list(
+            start_date = as.Date(paste0(min_year, "-01-01")),
+            end_date = as.Date(paste0(max_year, "-12-31"))
+          ))
         }
       }
     }
