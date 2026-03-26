@@ -1,4 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AJ286532.26.3.1996.FR","fumer modéré",NA,"Employés"
-"AF125639.24.3.1996.FR","fumer modéré","occasionnellement","Artisans, commerçants et chefs d’entreprise"
-"Z95446.3.2.1996.FR","fumer modéré",NA,"Professions Intermédiaires"

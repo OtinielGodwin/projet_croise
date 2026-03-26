@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"D10112.6.9.1983.GB","fumeur occasionnel","quotidiennement","Employés"

@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"MF124793.3.11.1993.DE","gros fumeur",NA,"Cadres et professions intellectuelles supérieures"

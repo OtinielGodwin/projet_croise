@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF541522.15.1.1990.LU","fumeur léger","jamais","Agriculteurs exploitants"

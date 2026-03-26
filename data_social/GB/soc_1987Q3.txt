@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AY677564.19.7.1987.GB","gros fumeur","régulièrement","Ouvriers"

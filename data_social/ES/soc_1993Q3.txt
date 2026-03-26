@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF354010.15.7.1993.ES","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

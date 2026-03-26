@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AJ294943.15.4.1995.NO","fumeur occasionnel","occasionnellement","Professions Intermédiaires"

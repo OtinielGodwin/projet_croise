@@ -1,3 +1,0 @@
-"ID","smoke","alcohol","csp"
-"M15654.9.7.1983.FR","gros fumeur",NA,"Ouvriers"
-"MH843935.13.7.1983.FR","gros fumeur","quotidiennement","Cadres et professions intellectuelles supérieures"

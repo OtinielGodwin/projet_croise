@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF541525.8.6.1996.LU","fumeur occasionnel","occasionnellement","Cadres et professions intellectuelles supérieures"

@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF253237.5.3.1997.GB","gros fumeur","quotidiennement","Ouvriers"

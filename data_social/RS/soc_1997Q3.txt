@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF441170.14.7.1997.RS","fumer modéré","quotidiennement","Professions Intermédiaires"

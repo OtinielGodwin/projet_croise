@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AY677462.5.10.1991.GB","fumeur occasionnel","jamais","Cadres et professions intellectuelles supérieures"

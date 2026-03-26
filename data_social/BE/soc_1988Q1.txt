@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AJ228159.24.1.1988.BE","fumeur léger","quotidiennement","Employés"

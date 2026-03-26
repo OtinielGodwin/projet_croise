@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"A07867.6.10.1983.FR","gros fumeur",NA,"Employés"

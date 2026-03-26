@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"KC681847.7.3.1995.RU","fumeur léger","quotidiennement","Agriculteurs exploitants"

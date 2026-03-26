@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"JQ292433.10.11.1996.FR","fumeur occasionnel","occasionnellement","Ouvriers"

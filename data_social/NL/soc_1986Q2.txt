@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"U34604.6.6.1986.NL","gros fumeur","jamais","Cadres et professions intellectuelles supérieures"

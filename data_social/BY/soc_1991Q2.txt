@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"KT733646.11.6.1991.BY","gros fumeur","quotidiennement","Ouvriers"

@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AF403944.24.3.1991.NL","fumeur occasionnel","régulièrement","Employés"

@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"AY611699.24.3.1989.AL","fumer modéré","occasionnellement","Employés"

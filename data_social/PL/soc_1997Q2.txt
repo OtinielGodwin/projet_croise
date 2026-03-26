@@ -1,3 +1,0 @@
-"ID","smoke","alcohol","csp"
-"KM057352.8.5.1997.PL","fumeur occasionnel","régulièrement","Employés"
-"JQ305750.15.4.1997.PL","fumeur léger","occasionnellement","Cadres et professions intellectuelles supérieures"

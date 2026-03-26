@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"MH642430.19.7.1993.BE","non-fumeur","occasionnellement","Ouvriers"

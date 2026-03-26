@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"JN570508.5.11.1991.FR","fumeur léger",NA,"Ouvriers"

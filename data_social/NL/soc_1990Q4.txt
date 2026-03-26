@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"L76877.13.10.1990.NL","gros fumeur","régulièrement","Professions Intermédiaires"

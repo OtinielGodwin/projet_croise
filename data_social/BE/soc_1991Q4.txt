@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"KT864183.10.10.1991.BE","fumeur léger","jamais","Cadres et professions intellectuelles supérieures"

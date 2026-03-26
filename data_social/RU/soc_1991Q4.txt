@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"EU345921.1.11.1991.RU","fumeur léger","régulièrement","Agriculteurs exploitants"

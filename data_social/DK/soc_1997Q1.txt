@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"DQ468508.10.3.1997.DK","fumer modéré","occasionnellement","Employés"

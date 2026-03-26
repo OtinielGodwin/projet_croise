@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"EF114510.12.11.1995.IT","non-fumeur","jamais","Agriculteurs exploitants"

@@ -1,2 +1,0 @@
-"ID","smoke","alcohol","csp"
-"EU345831.15.2.1997.UA","fumeur léger","quotidiennement","Agriculteurs exploitants"
